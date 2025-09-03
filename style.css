@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+    .ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  /*font-style: normal;*/
+  
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  /*font-style: normal;*/
+
+}
+
+#dropdownGrade {
+  padding: 4px;
+  width: 250px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  font-family: "Ubuntu" sans-serif;
+}
+
+
+.titulo {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+    input {
+      font-family: "Ubuntu", sans-serif;
+      outline: 0;
+      background: #f2f2f2;
+      width: 110px;
+      border: 0;
+      
+      padding: 15px;
+      box-sizing: border-box;
+      font-size: 14px;
+      border-radius: 5px;
+    } 
+    
+    
+    button {
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
+      outline: 0;
+      background: #86b1c4;
+      width: 100%;
+      border: 0;
+      padding: 15px;
+      color: #FFFFFF;
+      font-size: 14px;
+      -webkit-transition: all 0.3 ease;
+      transition: all 0.3 ease;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    section {
+        margin-top: 100px;
+
+    }
+
+    
+    .calculadoras {
+      display: flex;
+      flex-direction: column; /* Organiza os elementos na vertical */
+      align-items: center; /* Centraliza horizontalmente */
+      justify-content: center; /* Centraliza verticalmente */
+      border-radius: 20px;
+      width: 800px;
+      position: relative;
+      z-index: 1;
+      background: #FFFFFF;
+      padding: 45px;
+      text-align: center;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+      margin-top: 100px;
+    }
+
+    .calculadoraGrade {
+  display: none; /* Calculadoras ocultas por padrão */
+}
+
+.calculadoraGrade.active {
+  display: block; /* Apenas a calculadora ativa será exibida */
+  
+
+}
+
+    table {
+      border-collapse: collapse;
+      border: 1px solid rgb(140 140 140);
+      border-radius: 5px;
+     /* font-family: sans-serif;*/
+      
+    }
+
+    thead {
+      background-color: #86b1c4;
+      font-weight: 400;
+    }
+
+    th, td {
+      border: 1px solid rgb(160 160 160);
+      padding: 8px 10px;
+      height: 50px;
+    }
+
+    
+
+    .corpo {
+      font-weight: 100;
+    }
+
+   
+
+    tbody > tr:nth-of-type(even) {
+      background-color: rgb(237 238 242);
+    }
+    
